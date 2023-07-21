@@ -1,0 +1,415 @@
+*{
+margin: 0;
+padding: 0;
+}
+body{
+    border: 0;
+}
+header{
+    display: flex;
+    padding: 20px;
+    margin-left: 120px;
+    padding-left: 10px;
+}
+header img{
+
+    width: 40px; height: 40px;
+    cursor: pointer;
+}
+header h2{
+    margin-left: 70px;
+    margin-top: 15px;
+    font-family: SoDoSans_Semibold,Helvetica,sans-serif;
+    font-size: 14px;
+    cursor: pointer;
+}
+header h2:active,header h2:hover{
+    text-decoration: underline rgb(21, 107, 21);
+    text-decoration-thickness: 3px;
+}
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48
+}   
+
+.searchbar{
+    width: 200px;
+    padding-left: 48px;
+    margin-left: 80px;
+    color: black;
+    height: 30px;
+    background: transparent;
+    position: relative;
+    padding-top: 5px;
+    border-radius: 15px;
+    border: 1px solid;
+}
+
+.material-symbols-outlined{
+    padding-left: 100px;
+    padding-top: 10px;
+    position: absolute;
+}
+.search{
+    margin-top: 5px;
+    margin-left: 200px;
+}
+
+.proicon img{
+    padding-left: 120px;
+
+}
+/* -------------------------banner------------------------------------------- */
+.banner{
+    background: #1e3932;
+    height: 80px;
+    color: white;
+    display: flex;
+    position: relative;
+    
+}
+.banner p{
+    font-family: SoDoSans_Light;
+    font-size: 20px;
+   margin-left: 120px;
+    padding-top: 30px;
+}
+.banner button{
+    width: 101px;
+    height: 33px;
+    position: absolute;
+    right: 77px;
+    margin-top: 25px;
+    background: transparent;
+    border: 1px solid white;
+    color: white;
+    border-radius: 15px;
+    cursor: pointer;
+}
+h1{
+    font-size: 23px;
+    margin-left: 110px;
+    font-family: SoDoSans_Bold,Helvetica,sans-serif!important;
+color: #1e3932;
+ 
+ margin-top: 30px;
+ 
+}
+
+.items{
+    display: flex;
+    margin-left: 10px;
+   
+}
+.items img{
+    border-radius: 50%;
+    width: 115px;
+    height: 100px;
+    margin-left: 109px;
+    margin-top: 35px;
+
+}
+p{
+    font-size: 15px;
+    font-family: SoDoSans_Semibold,Helvetica,sans-serif;
+    text-align: center;
+    margin-left: 110px;
+}
+/* ---------------------------------------------------------------------------------------------------- */
+.ban{
+    background: #DFC49D;
+    margin-top: 100px;
+    width: 85%;
+    height: 218px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px #00000012, 0 4px 5px #0000000f, 0 1px 10px #0000001a;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+     font-family: SoDoSans_Regular,Helvetica,sans-serif;
+
+}
+.coffiee img{
+   width: 100px;
+   height: auto;
+   display: block;
+}
+.offer{
+    position: relative;
+}
+.offer h6{
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 10px;
+    margin-left: 80px;
+}
+.offer p{
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 19px;
+    margin-left: 0px;
+    margin-right: 260px;
+    
+
+}
+.price p{
+    font-family: SoDoSans_Light,Helvetica,sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    position: absolute;
+    top: 659px;
+    left: 184px;
+  
+}   
+.price h1{
+    position: absolute;
+    top: 647px;
+    left: 185px;
+    font-size: 15px;
+    font-weight: bold;
+}
+.ordernow{
+    position: relative;
+}
+.ordernow button{
+    background: #00754a;
+    color: #fff;
+    cursor: pointer;
+    border: none;
+    width: 190px;
+    height: 43px;
+    border-radius: 30px;
+    position: absolute;
+    left: 313px;
+    margin-top: 50px;
+
+}
+/* -------------------------------------------Latest Offer-------------------------------------------------------------------- */
+.latestoffer{
+    width: 100%;
+    height: 10vh;
+}
+
+.latestoffer h1{
+    font-family: SoDoSans_Bold,Helvetica,sans-serif!important;
+    color: #1e3932;
+}
+.container{
+    width: 87%;
+    height: 500px;
+    margin-top: 25px;
+    margin-left: 100px;
+    display: flex;
+    justify-content: space-evenly;
+   
+}
+.cards{
+height: 360px;
+width: 87%;
+background-color: #fff;
+margin: 21px;
+box-shadow: 0 2px 4px #00000012, 0 4px 5px #0000000f, 0 1px 10px #0000001a;
+    border-radius: 8px;
+    cursor: pointer;
+    position: relative;
+
+}
+.cards img{
+    width: 400px;
+    height: 160px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+.veglogo img{
+    width: 20px;
+    height: 20px;
+    margin-left: 27px;
+}
+.cards h1{
+    font-size: 14px;
+    color: #1e3932;
+    margin-left: 30px;
+    margin-top: 0;
+}
+.cards h2{
+    color: #000000de;
+    font-size: 11px;
+    font-family: SoDoSans_Light,Helvetica,sans-serif!important;
+    font-weight: 200;
+    margin-top: 36px;
+    margin-left: 11px;
+}
+.cards h5{
+    font-weight: 600;
+    margin-top: 30px;
+    margin-left: 20px;
+}
+.cards button{
+    background: #00754a;
+    color: #fff;
+    cursor: pointer;
+    border: none;
+    margin-bottom: 15px;
+    width: 150px;
+    height: 35px;
+    border-radius: 20px;
+position: absolute;
+right: 5px;
+}
+/* ---------------------------------recommends--------------------------------------------------------- */
+.BaristaRecommends{
+    font-family: SoDoSans_Bold,Helvetica,sans-serif!important;
+    color: #1e3932;
+    font-size: 30px;
+    margin-left: 100px;
+}
+
+.cont{
+    width: 100%;
+    background: #EDEBE9;
+    height: 190px;
+    display: flex;
+    cursor: pointer;
+    justify-content: space-evenly;
+}
+
+.list{
+    background-color: #fff;
+    height: 160px;
+  width: 350px;
+  margin: 10px;
+  margin-top: 20px;
+  display: flex;
+  border-radius: 15px;
+  position: relative;
+  box-shadow: 0 2px 4px #00000012, 0 4px 5px #0000000f, 0 1px 10px #0000001a;
+ 
+
+}
+.list h2{
+    font-size: 18px;
+    margin-top: 32px;
+    margin-left: 15px;
+    font-weight: 500;
+    font-family: SoDoSans_Semibold,Helvetica,sans-serif!important;
+
+}
+.list img{
+    width: 110px;
+    height: 95px;
+    border-radius: 15px;
+    position: relative;
+}
+.list p{
+    font-size: 14px;
+    font-weight: 600;
+    font-family: SoDoSans_Semibold,Helvetica,sans-serif;
+    position: absolute;
+    bottom: 30px;
+    margin-left: 25px;
+    
+}
+.veg img{
+    width: 20px;
+    height: 20px;
+    margin-top: 7px;
+    right: 139px;
+}
+.list button{
+    background: #00754a;
+    color: #fff;
+    cursor: pointer;
+    border: none;
+    width: 150px;
+    height: 35px;
+    border-radius: 20px;
+    position: absolute;
+    right: 5px;
+    bottom: 21px;
+}
+.textcoffie{
+    margin-top: 50px;
+    font-family: SoDoSans_Semibold,Helvetica,sans-serif;
+}
+/* ------------------------------last------------------------------------------------------------------------ */
+.mid{
+    width: 100%;
+    height: 80vh;
+
+}
+
+.bigimg{
+    
+    width: 1243px;
+    height: 455px;
+    border-radius: 10px;
+    background: #EDEBE9;
+    position: absolute;
+    background-image: url(imagebottum.jpg);
+    background-size: cover;
+    margin-left: 142px;
+    margin-top: 50px;
+}
+.bigimg h1{
+    font-size: 28px;
+    font-family: SoDoSans_Semibold,Helvetica,sans-serif;
+    margin-left: 39px;
+    color: #fff;
+    margin-top: 250px;
+
+}
+.bigimg p{
+    font-weight: 400;
+    font-size: 14px;
+    margin-left: 2px;
+    padding-right: 443px;
+    top: 1800px;
+    color: #fff;
+    font-family: SoDoSans_Light,Helvetica,sans-serif!important;
+}
+.bigimg button{
+    background: #fff;
+    color: #000000;
+    cursor: pointer;
+    border: none;
+    width: 180px;
+    height: 35px;
+    margin-left: 35px;
+    border-radius: 20px;
+    font-family: SoDoSans_Semibold,Helvetica,sans-serif
+}
+/*  --------------------------------------------footer------------------------------------------------------ */
+footer{
+    width: 100%;
+    height: 40vh;
+    background: #0E382C;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.last{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 68px;
+    
+}
+.footerlogo img{
+margin-right: 30px;
+}
+    
+.section1{
+    height: 45px;
+margin-left: 20px;
+
+
+
+}
+    
